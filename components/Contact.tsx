@@ -11,7 +11,7 @@ type Inputs = {
 
 type Props = {};
 
-export default function ({}: Props) {
+export default function Contact({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
     window.location.href = `mailto:brdthompson02@gmail.com?subject=${formData.subject}&body=${formData.message}`;

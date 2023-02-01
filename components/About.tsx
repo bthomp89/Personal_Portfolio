@@ -20,11 +20,11 @@ export default function About({}: Props) {
         className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-2 justify-evenly mx-auto items-center"
       >
         <Link
-          className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+          className="flex-shrink-0"
           href="https://www.gojhl.ca/stats/player-stats/17/78?playertype=skater&position=skaters&rookie=no&sort=goals&statstype=standard&page=1&league=1"
         >
           <Image
-            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+            className="-mb-20 md:mb-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
             src={mypic}
             alt="Picture of the author"
           />
