@@ -11,7 +11,7 @@ export default function Experience({}: Props) {
       <h3 className="absolute -top-14 uppercase tracking-[20px] text-gray-500 text-2xl pt-52 pb-24">
         Experience
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 pt-52 snap-x snap-mandatory overflow-y-hidden">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 pt-96 snap-x snap-mandatory overflow-y-hidden">
         <CTFS />
         <WDS />
         <EWB />
