@@ -15,7 +15,7 @@ export default function Me({}: Props) {
   });
 
   return (
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pb-56">
       <motion.div className="border-solid border-2 border-white-600 rounded-full">
         <Image
           className="relative rounded-full mx-auto"

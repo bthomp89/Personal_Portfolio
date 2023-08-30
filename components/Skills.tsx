@@ -6,7 +6,7 @@ type Props = {};
 
 export default function Technologies({}: Props) {
   return (
-    <div className="flex flex-col relative h-screen justify-center mx-auto items-center mb-96">
+    <div className="flex flex-col relative h-auto justify-center mx-auto items-center">
       <h3 className="relative -top-14 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
