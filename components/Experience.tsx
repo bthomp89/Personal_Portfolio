@@ -2,6 +2,8 @@ import React from "react";
 import CTFS from "./experience/CTFS_ExpCard";
 import WDS from "./experience/WDS_ExpCard";
 import EWB from "./experience/EWB_ExpCard";
+import CTFS2 from "./experience/CTFS_ExpCard copy";
+import IBM from "./experience/IBM_ExpCard";
 
 type Props = {};
 
@@ -12,8 +14,10 @@ export default function Experience({}: Props) {
         Experience
       </h3>
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory overflow-y-hidden">
-        <CTFS />
+        <CTFS2 />
+        <IBM />
         <WDS />
+        <CTFS />
         <EWB />
       </div>
     </div>

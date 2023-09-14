@@ -19,28 +19,26 @@ export default function CTFS_ExpCard({}: Props) {
         <div className="flex space-x-2 my-2 opacity-70 text-gray-200">
           {/* Skills */}
           <p>Java</p>
-          <p>Javascript</p>
+          <p>REST APIs</p>
           <p>MySQL</p>
           <p>Bitbucket</p>
-          <p>HTML</p>
+          <p>JavaServer Pages (JSP)</p>
           <p>Selenium</p>
         </div>
         <p className="uppercase py-5 text-gray-300">
-          Started May 2022 - Ended August 2022
+          Started May 2023 - Ended August 2023
         </p>
         <div className="invisible md:visible">
           <ul className="list-disc space-y-3 text-lg">
             <li>
-              Designed and deployed customized testing simulators using
-              Javascript and JSP for various banners (Sport Chek, Canadian Tire,
-              Marks, etc.) to streamline dev/pre-prod testing processes
-              resulting in a 60% reduction in bug reports.
+              Developed REST API endpoints with Java to seamlessly integrate 280
+              Canadian Tire Gas+ stations with 1500+ Petro-Canada Stations, used
+              by 15 M+ customers nationwide.
             </li>
             <li>
-              Developed an in-depth understanding of Atlassian Software and
-              agile methodologies through hands-on experience using JIRA,
-              Confluence, and Bitbucket in a variety of software development
-              contexts.
+              Collaborated with product teams to implement card verification
+              logic for Triangle Select subscription renewals, resulting in a
+              70% decrease in failed payment transactions.
             </li>
           </ul>
         </div>
